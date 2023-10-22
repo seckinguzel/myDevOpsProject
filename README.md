@@ -23,19 +23,16 @@ Apache Maven
 Clone the Project:
 Download the project repository to your local machine from GitHub or another hosting platform.
 
-bash
 Copy code
 git clone https://github.com/yourusername/myDevOpsProject.git
 Navigate to the Project Directory:
 Using the terminal or command prompt, navigate to the root directory of your project.
 
-bash
 Copy code
 cd myDevOpsProject
 Install Project Dependencies:
 Run the following command to download the project's dependencies.
 
-bash
 Copy code
 mvn clean install
 Running on Kubernetes with Minikube
@@ -45,14 +42,12 @@ Download and install Minikube.
 Start Minikube:
 Start Minikube by using the following command:
 
-bash
 Copy code
 minikube start
 Deploy Kubernetes Applications:
 
 Navigate to the producer-service and consumer-service directories.
 Deploy applications on Kubernetes using the k8s-deployment.yaml file for both services.
-bash
 Copy code
 kubectl apply -f k8s-deployment.yaml
 Access Services:
@@ -63,4 +58,4 @@ Swagger Documentation:
 
 Producer Service Swagger Documentation: http://localhost:8080/swagger-ui.html
 Consumer Service Swagger Documentation: http://localhost:8081/swagger-ui.html
-This guide will help you run the myDevOpsProject locally, install dependencies using Maven, and deploy it to Kubernetes. You can use this guide to set up your project for local development and deployment on Kubernetes
+This guide will help you run the myDevOpsProject locally, install dependencies using Maven, and deploy it to Kubernetes. You can use this guide to set up your project for local development and deployment on Kubernetes.
