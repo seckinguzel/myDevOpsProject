@@ -63,4 +63,4 @@ Swagger Documentation:
 
 Producer Service Swagger Documentation: http://localhost:8080/swagger-ui.html
 Consumer Service Swagger Documentation: http://localhost:8081/swagger-ui.html
-This guide will help you run the myDevOpsProject locally, install dependencies using Maven, and deploy it to Kubernetes. You can use this guide to set up your project for local development and deployment on Kubernetes.
+This guide will help you run the myDevOpsProject locally, install dependencies using Maven, and deploy it to Kubernetes. You can use this guide to set up your project for local development and deployment on Kubernetes
